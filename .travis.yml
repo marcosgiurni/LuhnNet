@@ -3,8 +3,7 @@ solution: src/LuhnNet.sln
 mono: none
 dotnet: 3.1.201
 install:
-  - dotnet restore src
-  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
+ - dotnet restore src
 script:
  - dotnet build src
  - dotnet test src
