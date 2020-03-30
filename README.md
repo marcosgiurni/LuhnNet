@@ -1,5 +1,7 @@
 # LuhnNet
 
+![.NET Core](https://github.com/marcosgiurni/LuhnNet/workflows/.NET%20Core/badge.svg?branch=master)
+
 ## Usage
 ### Check if a number is valid
 ```c#
