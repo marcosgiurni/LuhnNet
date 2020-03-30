@@ -8,5 +8,5 @@
 
 ### Calculate the check digit
 ```c#
-  var isValid = Luhn.GetCheckDigit("555566667777888");
+  var checkDigit = Luhn.CalculateCheckDigit("555566667777888");
 ```
