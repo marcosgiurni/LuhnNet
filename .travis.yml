@@ -1,2 +1,10 @@
 language: csharp
 solution: src/LuhnNet.sln
+mono: none
+dotnet: 3.1.201
+install:
+  - dotnet restore
+  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
+script:
+ - dotnet build
+ - dotnet test LuhnNet.Test/LuhnNet.Test.csproj
