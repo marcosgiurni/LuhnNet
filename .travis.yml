@@ -1,2 +1,2 @@
 language: csharp
-solution: LuhnNet.sln
+solution: src/LuhnNet.sln
