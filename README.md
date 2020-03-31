@@ -1,6 +1,7 @@
 # LuhnNet
 
 ![.NET Core](https://github.com/marcosgiurni/LuhnNet/workflows/.NET%20Core/badge.svg?branch=master)
+![Nuget](https://img.shields.io/nuget/v/LuhnNet?style=plastic)
 
 ## Usage
 ### Check if a number is valid
